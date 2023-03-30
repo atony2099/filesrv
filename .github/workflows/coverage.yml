@@ -14,4 +14,4 @@ jobs:
         CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
       with:
         coverageCommand: go test ./... -coverprofile c.out
-        prefix: github.com/atony2099/golive 
+        prefix: github.com/atony2099/filesrv 
